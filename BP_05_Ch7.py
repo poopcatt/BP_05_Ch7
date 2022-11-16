@@ -94,8 +94,8 @@ import turtle
 t=turtle.Turtle()
 t.shape("turtle")
 
-def draw_line():             #draw_line() 함수 정의
-    for i in range(12):      #12번 반복
+def draw_line():              #draw_line() 함수 정의
+    for i in range(12):       #12번 반복
         t.forward(100)
         t.forward(-100)
         t.left(30)
