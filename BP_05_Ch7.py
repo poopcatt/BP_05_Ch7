@@ -33,7 +33,7 @@ def snowman_friend(x,y):               #snow_friend() 함수 정의
     t.left(120)
     t.forward(40)
     t.forward(-40)
-    t.right(140)                       #눈사람 중반부
+    t.right(140)                       #눈사람 팔
     
     t.up()
     t.goto(x,y-90)
